@@ -13,6 +13,4 @@ class Anagram
     word.collect{|some_words| some_words.split.sort = word}
     end
 
-  end 
   end
-end
