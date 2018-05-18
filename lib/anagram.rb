@@ -11,6 +11,7 @@ class Anagram
     word=@word.split("").sort
     some_words=%W(some words).split("")
     word.collect{|some_words| some_words.split.sort = word}
+  else
+    []
   end
-
 end
