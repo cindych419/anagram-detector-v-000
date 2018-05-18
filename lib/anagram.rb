@@ -10,9 +10,10 @@ class Anagram
     word=[]
     word=@word.split("").sort
     some_words=%W(some words).split("")
-    word.collect{|some_words| some_words.split.sort = word}
+    if 
+      word.collect{|some_words| some_words.split.sort = word}
   else
-    []
+    word
   end
 end
 end
