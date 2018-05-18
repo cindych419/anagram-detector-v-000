@@ -5,7 +5,7 @@ class Anagram
     @word=word
   end
 
-  def match([%w(some_words)])
+  def match([%w(some words)])
     some_words=[]
     word=[]
     word=@word.split("").sort
