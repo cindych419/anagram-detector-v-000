@@ -9,7 +9,7 @@ class Anagram
     some_words=[]
     word=[]
     word=@word.split("").sort
-    some_words=%W(some words).split("")
+    some_words=some_words.split("")
     if
       word.collect{|some_words| some_words.split.sort = word}
   else
